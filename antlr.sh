@@ -1,0 +1,1 @@
+antlr4 CANN.g4 -o "src/gen" -package "gen" -visitor

@@ -1,0 +1,8 @@
+neunet someNet := import();
+int epoch := 1000;
+real learningrate := 0.00012;
+mtrx[real,2, 2] testdata;
+mtrx[real,2, 2] traindata;
+loadTestData(testdata,traindata);
+train(someNet, 100, 5.4, traindata, testdata);
+export(someNet);

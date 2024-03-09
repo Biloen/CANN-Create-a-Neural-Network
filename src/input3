@@ -1,0 +1,6 @@
+int n;
+int p := 2;
+vec[int, 2] myVec := [1,2];
+mtrx[int, 2, 2] myMtrx;
+neunet mine := {1,2};
+neunet poo := import();
